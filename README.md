@@ -17,16 +17,18 @@ Make sure you have the following installed on your computer:
 ### Running the API
 
 3. Run the following command to start the API server: `dotnet run`
-The API will run on port `5238`.
+The API will run on port `5238`. Don't close the terminal.
 
-4. Once the API is running, navigate to the `HangmanResponse/GameStuff/` directory in another terminal or command prompt.
+4. Once the API is running, navigate to the `HangmanResponse/GameStuff/` directory in another terminal or command prompt, and follow step 5 and 6.
 
 ### Running the Front-end Server
 
-5. Execute the following command to start the front-end server: `node server.js`
-This will start the front-end server.
+5. Execute `npm install` to install depedences
 
-6. Open your web browser and go to `http://localhost:8080/index.html` to start playing the Hangman game.
+6. Execute the following command to start the front-end server: `node server.js`
+This will start the front-end server. Don't close the terminal.
+
+7. Open your web browser and go to `http://localhost:8080/index.html` to start playing the Hangman game.
 
 ## How to Play
 
