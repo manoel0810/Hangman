@@ -36,4 +36,9 @@ This will start the front-end server.
 - If the guessed letter is not in the word, it will count as a wrong guess.
 - Keep guessing letters until you either complete the word or run out of attempts.
 
+## xUnit Test
+
+- You can run xUnit test loading the solution on Visual Studio, by double click on HangmanResponse.sln on root directory.
+After that, just run! :)
+
 Enjoy playing Hangman!
