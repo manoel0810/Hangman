@@ -8,7 +8,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowLocalhost",
         builder =>
         {
-            builder.WithOrigins("http://localhost", "https://localhost", "http://localhost:8080", "https://localhost:7281")
+            builder.WithOrigins("http://localhost", "https://localhost", "http://localhost:8080", "https://localhost:7281", "http://localhost:5238")
                    .AllowAnyHeader()
                    .AllowAnyMethod();
         });
@@ -41,4 +41,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+app.Run("http://localhost:5238");

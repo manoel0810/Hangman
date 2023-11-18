@@ -9,7 +9,7 @@ let lastToken = "";
 
 createSecretWord();
 function createSecretWord(){
-    fetch('https://localhost:7281/generateWord')
+    fetch('http://localhost:5238/generateWord')
     .then(response => {
         if (!response.ok) {
             throw new Error('Error getting data from API');
@@ -83,7 +83,7 @@ function changeStyleCharacter(tecla, condicao){
 
 function compareLists(letra){
 
-    fetch('https://localhost:7281/check/' + letra + "/" + lastToken)
+    fetch('http://localhost:5238/check/' + letra + "/" + lastToken)
     .then(response => {
         if (!response.ok) {
             throw new Error('Error getting data from API');
