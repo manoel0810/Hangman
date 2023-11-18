@@ -19,6 +19,10 @@ Make sure you have the following installed on your computer:
 3. Run the following command to start the API server: `dotnet run`
 The API will run on port `5238`. Don't close the terminal.
 
+-  If you want to see the API logs, go to: `http://localhost:5238/logs`.
+-  If you want to see the API tokens, to to: `http://localhost:5238/tokens`
+-  For more, check `http://localhost:5238/swagger/index.html`. 😁
+
 4. Once the API is running, navigate to the `HangmanResponse/GameStuff/` directory in another terminal or command prompt, and follow step 5 and 6.
 
 ### Running the Front-end Server
