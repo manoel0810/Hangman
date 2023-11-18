@@ -131,10 +131,6 @@ function compareLists(letra){
     });   
 }
 
-async function atraso(tempo){
-    return new Promise(x => setTimeout(x, tempo))     
-}
-
 function carregaImagemForca(){
     switch(tentativas){
         case 5:
@@ -178,25 +174,6 @@ bntReiniciar.addEventListener("click", function(){
     jogarNovamente = false;
     location.reload();
 });
-
-function listaAutomatica(){ // ativa o modo manual
-    if (jogoAutomatico == true) {
-        document.getElementById("jogarAutomatico").innerHTML = "<i class='bx bx-play-circle'></i>"
-        palavras = [];
-        jogoAutomatico = false;
-
-        document.getElementById("abreModalAddPalavra").style.display = "block";
-        document.getElementById("status").innerHTML = "Modo Manual";
-    }
-    else if(jogoAutomatico == false){ // ativa o modo automático
-        document.getElementById("jogarAutomatico").innerHTML = "<i class='bx bx-pause-circle'></i>"
-        jogoAutomatico = true;
-
-        document.getElementById("abreModalAddPalavra").style.display = "none";
-        document.getElementById("status").innerHTML = "Modo Automático";
-        
-    }
-}
 
 function sortear(){
     if(jogoAutomatico == true){
