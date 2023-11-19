@@ -20,7 +20,7 @@ Make sure you have the following installed on your computer:
 The API will run on port `5238`. Don't close the terminal.
 
 -  If you want to see the API logs, go to: `http://localhost:5238/logs`.
--  If you want to see the API tokens, to to: `http://localhost:5238/tokens`
+-  If you want to see the API tokens, go to: `http://localhost:5238/tokens`
 -  For more, check `http://localhost:5238/swagger/index.html`. 😁
 
 4. Once the API is running, navigate to the `HangmanResponse/GameStuff/` directory in another terminal or command prompt, and follow step 5 and 6.
